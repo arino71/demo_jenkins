@@ -8,7 +8,7 @@ pipeline {
                     pwd
                     python3 -m pip config set global.break-system-packages true
                     pip3 install robotframework robotframework-requests
-                    python3 -m robot -d reportes tests/test.robot
+                    python3 -m robot -d reportes -x robot.xml tests/test.robot
                     """
                 }
             }
@@ -16,7 +16,7 @@ pipeline {
     }
     post {
         always {
-            junit 'pruebas_resultado/junit.xml'
+            junit 'reportes/robot.xml'
             cleanWs()
         }
     }
