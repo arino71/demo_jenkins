@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test circuito terminos y condiciones operation engine" tests="31" errors="0" failures="0" skipped="0" time="373.720" timestamp="2025-11-26T15:35:10.709396">
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00010 - Firmo operacion multiple v4 con terminos para firmar ingresando al circuito de simulacion validando la firma de todos los terminos " time="21.123">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00020 - Firmo operacion multiple v4 con terminos para firmar ingresando al circuito de simulacion rechazando la firma por que falta firma de terminos " time="21.505">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00030 - Ingresio operacion desde OPERATION RECEIVER y ejecto por metodo PUT con terminos para firmar ingresando al circuito de simulacion validando la firma de los terminos enviados y firmados " time="13.380">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00040 - Ingresio operacion desde OPERATION RECEIVER y ejecto por metodo PUT con terminos para firmar ingresando al circuito de simulacion validando la firma de todos los terminos mas termino adhoc " time="13.768">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00050 - Ingresio operacion desde OPERATION RECEIVER y ejecto por metodo PUT con terminos para firmar ingresando al circuito de simulacion validando la firma de todos los terminos " time="13.740">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00060 - Ingresio operacion desde OPERATION RECEIVER y ejecto por metodo PUT con terminos para firmar ingresando al circuito de simulacion rechazando la firma el termino no esta relacionado al domino y faltan firmar terminos " time="13.361">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00070 - Ingresio operacion desde OPERATION RECEIVER y ejecto por metodo PUT con terminos para firmar ingresando al circuito de simulacion rechazando la firma por que falta firma de terminos " time="13.283">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00080 - Ingresio operacion desde OPERATION RECEIVER y ejecto por metodo PUT con terminos para firmar ingresando al circuito de simulacion rechazando la firma el termino no existe y faltan firmar terminos " time="13.088">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00090 - Ingresio operacion desde OPERATION RECEIVER y ejecto por metodo PUT con terminos para firmar ingresando al circuito de simulacion con error en la respuesta del proceso " time="12.761">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00100 - Ingreso operacion desde OPERATION RECEIVER y executo con terminos para firmar ingresando al circuito de simulacion validando la firma de todos los terminos " time="6.898">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00110 - Ingreso operacion desde OPERATION RECEIVER y executo con terminos para firmar ingresando al circuito de simulacion validando la firma de todos los terminos mas termino adhoc " time="6.789">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00120 - Ingreso operacion desde OPERATION RECEIVER y executo con terminos para firmar ingresando al circuito de simulacion validando la firma de los terminos enviados y firmados " time="6.611">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00130 - Ingreso operacion desde OPERATION RECEIVER y executo con terminos para firmar ingresando al circuito de simulacion rechazando la firma el termino no existe y faltan firmar terminos " time="6.808">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00140 - Ingreso operacion desde OPERATION RECEIVER y executo con terminos para firmar ingresando al circuito de simulacion rechazando la firma el termino no esta relacionado al domino y faltan firmar terminos " time="6.639">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00150 - Ingreso operacion desde OPERATION RECEIVER y executo con terminos para firmar ingresando al circuito de simulacion rechazando la firma por que falta firma de terminos " time="6.496">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00160 - Firmo operacion desde OPERATION RECEIVER v3 con terminos para firmar ingresando al circuito de simulacion validando la firma de todos los terminos " time="12.844">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00170 - Firmo operacion desde OPERATION RECEIVER v3 con terminos para firmar ingresando al circuito de simulacion validando la firma de todos los terminos mas termino adhoc " time="13.246">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00180 - Firmo operacion desde OPERATION RECEIVER v3 con terminos para firmar ingresando al circuito de simulacion validando la firma de los terminos enviados y firmados " time="13.248">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00190 - Firmo operacion desde OPERATION RECEIVER v3 con terminos para firmar ingresando al circuito de simulacion rechazando la firma el termino no esta relacionado al domino y faltan firmar terminos " time="12.779">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00200 - Firmo operacion desde OPERATION RECEIVER v3 con terminos para firmar ingresando al circuito de simulacion rechazando la firma el termino no existe y faltan firmar terminos " time="12.479">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00210 - Firmo operacion desde OPERATION RECEIVER v3 con terminos para firmar ingresando al circuito de simulacion rechazando la firma por que falta firma de terminos " time="12.867">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00220 - Firmo operacion desde OPERATION RECEIVER v3 con terminos para firmar ingresando al circuito de simulacion con error en la respuesta del proceso " time="12.651">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00230 - Ingresio operacion desde OPERATION RECEIVER y ejecto por metodo PUT sin terminos para firmar ingresando al circuito de validacion validando la firma " time="13.192">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00240 - Ingresio operacion desde OPERATION RECEIVER y ejecto por metodo PUT sin terminos para firmar ingresando al circuito de validacion rechazando la firma " time="12.565">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00250 - Ingresio operacion desde OPERATION RECEIVER y ejecto por metodo PUT sin terminos para firmar ingresando al circuito de validacion con error en la respuesta del proceso " time="12.903">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00260 - Ingreso operacion desde OPERATION RECEIVER y executo sin terminos para firmar ingresando al circuito de validacion validando la firma " time="6.671">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00270 - Ingreso operacion desde OPERATION RECEIVER y executo sin terminos para firmar ingresando al circuito de validacion rechazando la firma " time="6.647">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00280 - Ingreso operacion desde OPERATION RECEIVER y executo sin terminos para firmar ingresando al circuito de validacion con error en la respuesta del proceso " time="6.639">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00290 - Firmo operacion desde OPERATION RECEIVER v3 sin terminos para firmar ingresando al circuito de validacion validando la firma " time="13.064">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00300 - Firmo operacion desde OPERATION RECEIVER v3 sin terminos para firmar ingresando al circuito de validacion rechazando la firma " time="12.664">
+</testcase>
+<testcase classname="Test circuito terminos y condiciones operation engine" name="CPA-00310 - Firmo operacion desde OPERATION RECEIVER v3 sin terminos para firmar ingresando al circuito de validacion con error en la respuesta del proceso " time="12.981">
+</testcase>
+<properties>
+<property name="Documentation" value="Se ejecuta prueba del circuito de TyC del OPERATION ENGIN en entorno HOMO"/>
+<property name="Author" value="Omar Arino"/>
+<property name="Environment" value="HOMO"/>
+</properties>
+</testsuite>
