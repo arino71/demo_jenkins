@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'pip install robotframework robotframework-request'
+                sh 'pip3 install robotframework robotframework-request'
                 sh 'robot test/test.robot'
                 sh 'rebot -x output-junit.xml output.xml'
             }
