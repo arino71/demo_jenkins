@@ -3,12 +3,14 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh """
-                pwd
-                pip3 install robotframework robotframework-requests
-                robot -d reportes tests/test.robot
-                rebot -x output-junit.xml output.xml
-                """
+                script { 
+                    sh """
+                    pwd
+                    pip3 install robotframework robotframework-requests
+                    robot -d reportes tests/test.robot
+                    rebot -x output-junit.xml output.xml
+                    """
+                }
             }
         }
     }
