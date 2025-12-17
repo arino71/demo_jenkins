@@ -4,11 +4,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh """
-                /bin/bash
                 pwd
-                python3 -m venv demo2
-                ls -la demo2/bin
-                source demo2/bin/activate
                 pip3 install robotframework robotframework-requests
                 robot -d reportes tests/test.robot
                 rebot -x output-junit.xml output.xml
