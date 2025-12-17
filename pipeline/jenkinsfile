@@ -4,7 +4,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh """
-                #!/bin/bash
+                /bin/bash
                 pwd
                 python3 -m venv demo2
                 ls -la demo2/bin
