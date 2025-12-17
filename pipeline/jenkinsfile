@@ -6,6 +6,7 @@ pipeline {
                 script { 
                     sh """
                     pwd
+                    python3 -m pip config set global.break-system-packages true
                     pip3 install robotframework robotframework-requests
                     robot -d reportes tests/test.robot
                     rebot -x output-junit.xml output.xml
