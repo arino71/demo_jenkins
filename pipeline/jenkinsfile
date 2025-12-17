@@ -9,7 +9,7 @@ pipeline {
                     python3 -m pip config set global.break-system-packages true
                     pip3 install robotframework robotframework-requests
                     python3 -m robot -d reportes tests/test.robot
-                    python3 -m rebot -x output-junit.xml output.xml
+                    python3 -m robot -x output-junit.xml output.xml
                     """
                 }
             }
